@@ -1,0 +1,15 @@
+#buttonHoverEffect{
+  border: 2px solid #FFF;
+  color: rgb(0, 0, 0);
+  display: block;
+  background: transparent;
+  transition: .2s ease-in-out 0s;
+}
+
+#buttonHoverEffect:hover{
+     cursor: pointer;
+     transform: scale(1.25);
+     background: #FFF;
+     color: rgb(255, 255, 255);
+}
+ 
